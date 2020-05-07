@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+
+  <extension point="org.blueberry.ui.views">
+
+    <view id="upenn.cbica.captk.views.example1"
+      name="Example 1"
+      category="Workshop"
+      icon="resources/icon1.svg"
+      class="QmitkCaPTkExample1View" />
+
+  </extension>
+  
+</plugin>
