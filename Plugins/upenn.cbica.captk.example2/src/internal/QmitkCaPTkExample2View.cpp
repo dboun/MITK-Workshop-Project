@@ -23,9 +23,8 @@ void QmitkCaPTkExample2View::CreateQtPartControl(QWidget *parent)
   m_Parent = parent;
   m_Controls.setupUi(parent);
 
-  connect(m_Controls.pushButton_DoStuff, SIGNAL(clicked()),
-    this, SLOT(OnDoStuffButtonClicked())
-  );
+  connect(m_Controls.pushButton_DoStuff, SIGNAL(clicked()), this, SLOT(OnDoStuffButtonClicked()));
+  connect(m_Controls.pushButton_CloneImage, SIGNAL(clicked()), this, SLOT(OnCloneImageButtonClicked()));
 }
 
 void QmitkCaPTkExample2View::Activated()
