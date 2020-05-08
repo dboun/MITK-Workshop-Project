@@ -5,4 +5,5 @@ list(APPEND MITK_PLUGIN_REGEX_LIST "^upenn_cbica_[a-zA-Z0-9_]+$")
 
 set(MITK_PLUGINS
   upenn.cbica.captk.example1:ON
+  upenn.cbica.captk.example2:ON
 )
