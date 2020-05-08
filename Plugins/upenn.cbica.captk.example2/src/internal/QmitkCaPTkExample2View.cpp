@@ -64,7 +64,11 @@ void QmitkCaPTkExample2View::OnDoStuffButtonClicked()
 /* protected                                                            */
 /************************************************************************/
 
-void QmitkCaPTkExample2View::OnSelectionChanged(berry::IWorkbenchPart::Pointer, const QList<mitk::DataNode::Pointer>& /*nodes*/)
+void QmitkCaPTkExample2View::OnCloneImageButtonClicked()
+{
+}
+
+void QmitkCaPTkExample2View::OnSelectionChanged(berry::IWorkbenchPart::Pointer, const QList<mitk::DataNode::Pointer>& nodes)
 {
 
 }
