@@ -10,7 +10,7 @@ US_INITIALIZE_MODULE //("CaPTkExample2", "libupenn_cbica_captk_example2")
 
 void mitk::PluginActivator::start(ctkPluginContext *context)
 {
-  BERRY_REGISTER_EXTENSION_CLASS(QmitkCaPTkExample2iew, context)
+  BERRY_REGISTER_EXTENSION_CLASS(QmitkCaPTkExample2View, context)
 
   m_Context = context;
 }
